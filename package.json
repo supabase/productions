@@ -7,7 +7,7 @@
   },
   "prettier": {
     "singleQuote": true,
-    "trailingComma": "all"
+    "trailingComma": "none"
   },
   "dependencies": {
     "autoprefixer": "10.4.15",
