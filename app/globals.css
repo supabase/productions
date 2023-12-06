@@ -4,17 +4,11 @@
 
 @layer base {
   :root {
-    --background: 200 20% 98%;
-    --btn-border: 200 10% 91%;
-    --foreground: 200 50% 3%;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --background: 200 10% 2%;
-      --btn-border: 200 10% 9%;
-      --foreground: 200 20% 96%;
-    }
+    --background: 0 0% 5%;
+    --widget-background: 0 0% 14%;
+    --widget-border: 0 0% 18%;
+    --border-btn: 0 0% 30%;
+    --foreground: 0 0% 96%;
   }
 }
 
