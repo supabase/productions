@@ -1,4 +1,4 @@
-import SupabaseLogo from '../components/SupabaseLogo';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default async function Index() {
@@ -6,16 +6,14 @@ export default async function Index() {
     <div className="w-full h-screen flex items-center justify-center bg-background">
       <div className="md:bg-widget-background md:border border-widget-border opacity-0 animate-in p-[20px] pb-0 flex-1 w-full max-w-2xl h-auto flex flex-col items-center overflow-hidden max-h-screen rounded-xl md:shadow-xl transition-all">
         <div className="block md:hidden mb-8">
-          <SupabaseLogo />
+          <Image
+            src="/logo-dark.png"
+            alt="Supabase logo"
+            width="115"
+            height="23"
+          />
         </div>
         <div className="relative w-full aspect-video rounded-lg overflow-hidden">
-          {/* <Image
-          src="/images/supabase-album-cover.jpg"
-          alt="Supabase album steam-punk art"
-          fill
-          className="absolute inset-0 object-cover z-10"
-          draggable={false}
-        /> */}
           <iframe
             src="https://www.youtube-nocookie.com/embed/[YT_ID_HERE]?autoplay=1&enablejsapi=1&widgetid=0playsinline=0&&muted=1&showinfo=0&controls=0&fs=0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -31,8 +29,12 @@ export default async function Index() {
               href="https://supabase.com/launch-week"
               className="w-auto py-2 flex gap-3 justify-center items-center hover:opacity-80 transition-opacity"
             >
-              <SupabaseLogo />
-              {/* <span className="tracking-[2px] uppercase">Album</span> */}
+              <Image
+                src="/logo-dark.png"
+                alt="Supabase logo"
+                width="115"
+                height="23"
+              />
             </Link>
           </nav>
 
