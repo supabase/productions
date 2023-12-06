@@ -12,12 +12,16 @@
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background: 200 50% 3%;
+      --background: 200 11% 5%;
       --btn-background: 200 10% 9%;
       --btn-background-hover: 200 10% 12%;
       --foreground: 200 20% 96%;
     }
   }
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
 }
 
 @layer base {
