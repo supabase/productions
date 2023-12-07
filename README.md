@@ -1,3 +1,6 @@
+
+![supabase-album-cover](https://github.com/supabase/productions/assets/25671831/af171240-ee80-44ca-8451-8e64decefb27)
+
 # Supabase Productions
 
 [supabase.productions](https://www.supabase.productions)
