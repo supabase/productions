@@ -1,6 +1,6 @@
-# Supabase Album
+# Supabase Productions
 
-[Supabase.productions](https://www.supabase.productions)
+[supabase.productions](https://www.supabase.productions)
 
 ## Development
 
